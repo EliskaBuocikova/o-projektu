@@ -12,6 +12,7 @@ import Header from './Header';
 import Main from './Main/Main';
 import Eliska from './Eliska';
 import { Daniela } from './Daniela';
+import Tereza from './Tereza';
 
 const App = () => {
   return (
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: 'daniela',
         element: <Daniela />,
+      },
+      {
+        path: 'tereza',
+        element: <Tereza />,
       },
     ],
   },
