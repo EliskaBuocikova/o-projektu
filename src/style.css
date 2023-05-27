@@ -12,6 +12,7 @@ html {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 header {
@@ -22,8 +23,9 @@ header {
 }
 
 .logo {
-  width: 20rem;
-  height: 20rem;
+  margin-top: 5rem;
+  width: 15rem;
+  height: 15rem;
   background-image: url(./img/logo-HH.svg);
   background-size: contain;
 }

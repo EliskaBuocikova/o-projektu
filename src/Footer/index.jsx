@@ -1,10 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const Footer = () => {
-  return (
-    <div className="footer">Czechitas, Digitální akademie: Web - jaro 2023</div>
-  );
+const Footer = ({ text }) => {
+  return <div className="footer">{text}</div>;
 };
 
 export default Footer;
