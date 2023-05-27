@@ -9,16 +9,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="container">
-        <header>
-          <div className="logo" />
-        </header>
-        <Main
-          text="Aplikace umožňuje uživatelům mít provoz své domácnosti snadno pod
+      <Main
+        text="Aplikace umožňuje uživatelům mít provoz své domácnosti snadno pod
       kontrolou."
-        />
-      </div>
-
+      />
       <Footer text="Czechitas, Digitální akademie: Web - jaro 2023" />
     </>
   );

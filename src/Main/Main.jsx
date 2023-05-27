@@ -2,7 +2,14 @@ import React from 'react';
 import './style.css';
 
 const Main = ({ text }) => {
-  return <p>{text}</p>;
+  return (
+    <div className="container">
+      <header>
+        <div className="logo" />
+      </header>
+      <p>{text}</p>
+    </div>
+  );
 };
 
 export default Main;
