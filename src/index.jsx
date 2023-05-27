@@ -11,6 +11,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Main from './Main/Main';
 import Eliska from './Eliska';
+import Tereza from './Tereza';
 
 const App = () => {
   return (
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'eliska',
         element: <Eliska />,
+      },
+      {
+        path: 'tereza',
+        element: <Tereza />,
       },
     ],
   },
