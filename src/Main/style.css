@@ -9,12 +9,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
+  width: 13rem;
+  height: 13rem;
   background-image: url(../img/logo-HH.svg);
   background-size: contain;
 }
