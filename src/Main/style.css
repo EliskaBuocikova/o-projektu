@@ -13,8 +13,8 @@ header {
 }
 
 .logo {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   background-image: url(../img/logo-HH.svg);
   background-size: contain;
 }
