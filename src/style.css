@@ -31,14 +31,35 @@ a {
 a:hover {
   background-color: black;
   color: white;
-  padding: 5px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+a:focus {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  opacity: 0.2;
   text-decoration: none;
 }
 
 .medailonek {
+  align-items: center;
   text-transform: uppercase;
   max-width: 26rem;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.git-hub {
+  display: flex;
+  align-items: center;
+
 }
