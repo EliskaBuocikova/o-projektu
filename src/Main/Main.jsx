@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const Main = ({ text}) => {
+
+const Main = ({text}) => {
   return (
     <div className="container">
       <header>
