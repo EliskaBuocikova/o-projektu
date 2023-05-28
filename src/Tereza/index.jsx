@@ -4,6 +4,13 @@ const Tereza = () => {
     return (
         <div className="medailonek">
             <h3>Tereza</h3>
+            <div className="git-hub">
+                <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="logo Git Hub"
+                />
+            <a href="https://github.com/Tereza-Z">odkaz</a>
+            </div>
         </div>
 );
 };
