@@ -13,6 +13,7 @@ import Main from './Main/Main';
 import Eliska from './Eliska';
 import { Daniela } from './Daniela';
 import Tereza from './Tereza';
+import ErrorPage from './ErrorPage';
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: 'eliska',
